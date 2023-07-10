@@ -1,0 +1,51 @@
+.dashboard {
+  background-image: url(https://github.com/Andoriii/oruga/assets/62218066/3f5b7d3c-c394-4253-9862-7ab4c93dcfcb);
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+
+    h3 {
+      font-size: 42px;
+      letter-spacing: 1px;
+      color: ghostwhite;
+      margin-bottom: 24px;
+
+      @media screen and (min-width: 720px) {
+        font-size: 78px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .nav {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 8px 32px;
+        background-color: cornflowerblue;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        width: 100%;
+        min-width: 300px;
+        max-width: 400px;
+
+        &:hover {
+          border-color: white;
+        }
+      }
+    }
+  }
+}

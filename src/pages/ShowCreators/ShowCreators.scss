@@ -1,0 +1,25 @@
+.message {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  .card {
+    min-width: 260px;
+    flex-basis: 100%;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: 45%;
+    }
+
+    @media screen and (min-width: 920px) {
+      flex-basis: 30%;
+    }
+  }
+}

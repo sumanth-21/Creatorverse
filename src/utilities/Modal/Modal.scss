@@ -1,0 +1,59 @@
+dialog.modal {
+  article {
+    background-color: black;
+
+    p {
+      color: white;
+
+      span {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: deepskyblue;
+        text-transform: uppercase;
+      }
+    }
+
+    header {
+      font-size: 1.5em;
+      font-weight: 600;
+      color: deepskyblue;
+    }
+
+    footer {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      a {
+        display: inline-block;
+        padding: 8px 48px;
+        background-color: #1e3b92;
+        color: #fff;
+        width: auto;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+
+        &:hover {
+          color: #111111;
+          background-color: #fdbe10;
+        }
+
+        &.contrast {
+          color: black;
+          background-color: red;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+
+    header,
+    footer {
+      background-color: #313131;
+      border-color: deeppink;
+    }
+  }
+}
