@@ -2,7 +2,7 @@
 
 Submitted by: **👉🏿 Sai Sumanth Goud Parakala**
 
-About this web app: **👉🏿 app description here**
+About this web app: **👉🏿 Creatorverse is a web application designed to manage(CRUD) creators and their content. It allows users to add, update, and delete creator information with ease. The app incorporates features like alerts, loaders, and redirects to enhance usability and provide a seamless experience. With a focus on aesthetics and user experience, Creatorverse offers a visually appealing and responsive interface.**
 
 Time spent: **👉🏿 35 to 40** hours
 
@@ -40,11 +40,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://uppzknoubarljwmwhspr.supabase.co/storage/v1/object/public/assets%20for%20creators%20app/Creatorverse%20Demo.gif?t=2023-07-10T23%3A47%3A47.088Z' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='https://github.com/sumanth-21/Creatorverse/blob/main/src/assets/Creatorverse%20Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ... 👉🏿 GIF tool here
+GIF created with ... 👉🏿 LiceCap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
